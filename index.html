@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Belmo Cafe</title>
 
     <!-- we need to get our normal style sheet linked -->
     <link rel="stylesheet" href="styles.css">
@@ -18,8 +18,10 @@
 
 <!-- all of our actual website is gonna go here (in the body) -->
 <body>
+<div class="container-fluid"> 
 
-    <!-- to make a navigation bar using bootstrap, head to the documentation, locate the starter code, then paste it in here -->
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -28,19 +30,92 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link scrollto" href="#about">About</a>
+              <a class="nav-link scrollto" href="#menu">Menu</a>
+              <a class="nav-link scrollto" href="#specials">Specials</a>
+              <a class="nav-link scrollto" href="#chefs">Chefs</a>
+              <a class="nav-link scrollto" href="#gallery">Gallery</a>
+              <a class="nav-link scrollto" href="#contact">Contact Us</a>
             </div>
           </div>
         </div>
       </nav>
 
-    <img src="https://sallysbakingaddiction.com/wp-content/uploads/2017/06/moist-chocolate-cupcakes-5.jpg" alt="alternatetext">
+      <!-- the main tag houses the main content of the website -->
+  <main>
+
+    <!-- Habiba's Section -->
+    <section id="about">
+      <div class="row">
+        <div class="col">
+          Habiba's Section
+  
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Rahma's Section: "Menu",
+    lays out the menu  -->
+    <section id="menu">
+      <div class="row">
+        <div class="col">
+          Rahma's Section
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- Rania's Section: "Specials", 
+      describes the Algerian dishes -->
+    <section id="specials">
+      <div class="row">
+        <div class="col">
+          Rania's Section
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- Zaynab's Section -->
+    <section id="chefs">
+      <div class="row">
+        <div class="col">
+          Zaynab's Section
+  
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Zarif's Section -->
+    <section id="gallery">
+      <div class="row" id="#gallery">
+        <div class="col">
+          Zarif's Section
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Yahya's Section -->
+    <section id="#contact">
+      <div class="row">
+        <div class="col">
+          <div class="map">
+            <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.623866534846!2d-122.29249838467959!3d37.8690904797424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857f4483646a39%3A0x43c931ed1e8e1dde!2sBelmo%20Caf%C3%A9!5e0!3m2!1sen!2sus!4v1682019838683!5m2!1sen!2sus" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+</div>
+
     
-    <!-- stuff for bootsrap to work properly, we dont need to wrry about this -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!-- stuff for bootsrap to work properly, we dont need to wrry about this -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>
