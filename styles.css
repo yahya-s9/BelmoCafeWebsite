@@ -8,6 +8,16 @@ stone #c1cdc1
 dark nude #cc9966
 light nude #fdd1a5 */
 
+main {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* apply the follwoing rule to every single p tag on the website */
+p {
+    font-size: 2rem;
+
+}
+
 /* targetted every section TAG by using just it's name as the selector */
 section {
     margin-top: 5%;
@@ -21,7 +31,11 @@ section {
 }
 
 #menu {
+    
+}
 
+#specials {
+    padding: 15%;
 }
 
 /* targetting the chefs ID using hashtag in front */
