@@ -1,3 +1,33 @@
-section {
-    border: 1px solid black;
+
+/* 
+color palette: 
+
+mint #d9e7c1
+beige #faebd7
+stone #c1cdc1
+dark nude #cc9966
+light nude #fdd1a5 */
+
+.containerfluid { 
+    
 }
+
+/* targetted the section TAG using just its name */
+section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+/* targetting the chefs ID using hashtag in front */
+#chefs {
+    text-align: center;
+
+}
+
+/* targetted the card class using the full stop in front */
+.card {
+    padding: 15%;
+}
+
