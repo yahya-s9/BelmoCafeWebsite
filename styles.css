@@ -8,21 +8,24 @@ stone #c1cdc1
 dark nude #cc9966
 light nude #fdd1a5 */
 
-/* div.containerfluid { 
-    background-color: #faebd7;
-} */
-
-/* targetted the section TAG using just its name */
+/* targetted every section TAG by using just it's name as the selector */
 section {
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: center;
 
 }
 
+#about {
+    
+}
+
+#menu {
+
+}
 
 /* targetting the chefs ID using hashtag in front */
 #chefs {
-    text-align: center;
 
 }
 
