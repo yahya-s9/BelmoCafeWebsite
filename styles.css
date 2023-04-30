@@ -43,6 +43,10 @@ section {
 
 }
 
+.chefcol {
+    /* padding: 15%; */
+}
+
 /* targetted the card class using the full stop in front */
 .card {
     padding: 15%;
