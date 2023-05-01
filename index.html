@@ -27,7 +27,7 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: #faebd7;">
           <a class="navbar-brand" href="#"> Navbar </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -64,11 +64,11 @@
     </section>
 
 
-    <!-- Rahma's Section: "Menu",
+   <!-- Rahma's Section: "Menu",
     lays out the menu  -->
 
     <section id="menu"> <!-- begin menu section-->
-    <div class="container"> <!-- begin container-->
+    <div class="container menu-container"> <!-- begin container-->
       <div class="row">
         <h1>Menu</h1>
       </div>
@@ -82,7 +82,7 @@
     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#drinks" aria-expanded="false" aria-controls="drinks">
       Drinks
     </button>
-    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pastries" aria-expanded="false" aria-controls="pastries">
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#sweets" aria-expanded="false" aria-controls="sweets">
       Pastries
     </button>
     <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#savory" aria-expanded="false" aria-controls="savory">
@@ -90,384 +90,571 @@
     </button>
   </p>
   
-  <!-- <div class="collapse" id="coffee">
-    <div class="card card-body">
-
-      
-      <div class="container">
-        <h1>Hot Coffee </h1>
-
-        <div class="row">
-          <div class="col">
-            <p> Americano , $2.75 ,$3.50, $3.95 </p>
-          </div>
-          <div class="col">
-            <p> Cappuccino ,$4.50, $5.50, $ 6.00</p>
-          </div> 
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <p> Espresso ,$2.75,$3.50  </p>
-          </div>
-          <div class="col">
-            <p> Latte ,$3.95 ,$4.50, $4.75 </p>
-          </div> 
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <p>Chai Latte, $3.50 ,$4.00, $4.50 </p>
-          </div>
-          <div class="col">
-            <p> Mocha ,$4.00 , $4.50, $4.95</p>
-          </div> 
-        </div> 
-
-        <div class="row">
-          <div class="col">
-            <p> Regular Coffee ,$2.50 , $2.75, $3.00</p>
-          </div> 
-          </div>
-          <div class="col">
-            <p> Item Name ,$4.00 , $4.50, $4.95</p>
-          </div> 
-        </div> 
-
-        
-        <h1> Ice Coffees </h1>
-        <div class="row">
-          <div class="col">
-            <p> Cappuccino ,$4.50 ,$5.50, $6.00</p>
-          </div>
-          <div class="col">
-            <p> Latte,$3.95, $4.50, $4.75 </p>
-          </div> 
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <p> Macchiato,$0.00, $0.00, $0.00 </p>
-          </div>
-          <div class="col">
-            <p>Chai Latte, $3.50, $4.00, $4.50 </p>
-          </div> 
-        </div>
-
-        <div class="row">
-          <div class="col">
-            <p> Mocha  ,$4.00, $4.50, $4.95 </p>
-          </div>
-          <div class="col">
-            <p>Regular Coffee, $2.50, $2.75, $3.00 </p>
-          </div> 
-        </div>
-      </div> 
-    </div>
-  </div> -->
-
-
-
   <!-- NEXT SECTION -->
-  <div class="collapse" id= "drinks">
+  <div class="collapse" id="drinks">
     <div class="card card-body">
       <!-- begin card content-->
       <div class="container">
         <h1> Tea </h1>
         
         <div class="row">
-          <div class="col">
-            <p> English breakfast,$2.75,$3.50, $3.95  </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              English Breakfast
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.75, $3.50, $3.95
+            </div>
           </div>
-          <div class="col">
-            <p> Green Tea ,$2.50 ,$2.75, $3.00 </p>
-          </div> 
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Green Tea
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.50, $2.75, $3.00
+            </div>
+          </div>
         </div>
         <div class="row">
-          <div class="col">
-            <p> Jasmine Tea  $2.50 , $2.75, $3.00  </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Jasmine Tea
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.50, $2.75, $3.00
+            </div>
           </div>
-          <div class="col">
-            <p> Milk Tea , $2.75 , $3.50, $3.95 </p>
-          </div> 
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Milk Tea
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.75, $3.50, $3.95
+            </div>
+          </div>
         </div>
+
         <h1> Drinks </h1>
         
         <div class="row">
-          <div class="col">
-            <p> Algerian Soda $3  </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Algerian Soda
+            </div>
+            <div class="menu-item-price flex-child">
+              $3.00
+            </div>
           </div>
-          <div class="col">
-            <p> Cola $3 </p>
-          </div> 
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Cola
+            </div>
+            <div class="menu-item-price flex-child">
+              $3.00
+            </div>
+          </div>
         </div>
         <div class="row">
-          <div class="col">
-            <p> Water $3  </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Bottled Water
+            </div>
+            <div class="menu-item-price flex-child">
+              $3.00
+            </div>
           </div>
-          <div class="col">
-            <p> Kids Juice $2  </p>
-          </div> 
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Kids' Juice
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.00
+            </div>
+          </div>
         </div>
       </div> <!-- end container-->
       <!-- end card content-->
     </div>
   </div>
 
-  <div class="collapse" id="pastries">
+  <div class="collapse" id="sweets">
     <div class="card card-body">
       <div class="container">
 
-        <h1> Croissant </h1>
+        <h1>Croissant</h1>
         <div class="row">
-          <div class="col">
-            Plain Croissant $3.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Plain Croissant
+            </div>
+            <div class="menu-item-price flex-child">
+              $3.50
+            </div>
           </div>
-          <div class="col">
-            Chocolate Croissant $4.00
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Chocolate Croissant
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.00
+            </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-            Almond Croissant $4.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Almond Croissant
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.50
+            </div>
           </div>
-          <div class="col">
-            Apple and cinnamon custard $5.00
-          </div>
-        </div>
-          <div class="col">
-            Raisin Roll $4.00
-          </div>
-          <!-- <div class="col">
-            B
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            C
-          </div>
-          <div class="col">
-            D
-          </div>
-        </div> -->
-
-
-       
-        <h1> Cakes</h1>
-       
-        <div class="row">
-          <div class="col">
-            Opera Cake $6.50
-          </div>
-          <div class="col">
-            Chocolate Crunchy Cake $6.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Apple & Cinnamon Custard
+            </div>
+            <div class="menu-item-price flex-child">
+              $5.00
+            </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-            Red Velvet Cake $6.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Raisin Roll
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.00
+            </div>
           </div>
-          <div class="col">
-            Carrot Cake $6.50
-          </div>
+          <!-- <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Apple & Cinnamon Custard
+            </div>
+            <div class="menu-item-price flex-child">
+              $5.00
+            </div>
+          </div> -->
         </div>
+
+        <h1>Cakes</h1>
         <div class="row">
-          <div class="col">
-            Strawberry Cake $6.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Opera Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
           </div>
-          <div class="col">
-            Dulce De leche Cake $6.50
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            French Napoleon $5
-          </div>
-          <div class="col">
-            Éclair $5
-          </div>
-        </div>
-<div class="row">
-          <div class="col">
-            Dome $6.50
-          </div>
-          <div class="col">
-            Chocolate Crunchy Cake $6.50
-          </div>
-        </div>
-        <div class="row">
-        <div class="col">
-            Cheesecake $5
-          </div>
-          </div>
-          <h1> Gluten free Cakes</h1>
-       
-        <div class="row">
-          <div class="col">
-            Chocolate cake $7.50
-          </div>
-          <div class="col">
-           Red Velvet Cake $7.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Chocolate Crunchy Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-            Pyramid cake $7.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Red Velvet Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
           </div>
-          <h1> Tarts </h1>
-       
-        <div class="row">
-          <div class="col">
-            Fruit Tart $7
-          </div>
-          <div class="col">
-            Lemon Meringue Tart $6.50
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col">
-            Key Lime Tart $7
-          </div>
-          <div class="col">
-            Apricot Tart $7
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            Pear Tart $7
-          </div>
-          <div class="col">
-            Pecan Tart $7
-          </div>
-        </div>
-        <h1> Cookies </h1>
-       
-        <div class="row">
-          <div class="col">
-            Chocolate Caramel Cookie $2.50
-          </div>
-          <div class="col">
-            Cinnamon Caramel Cookie $2.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Carrot Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-            Cinnamon Caramel and Coconut Cookie $2.50
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Strawberry Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
           </div>
-          <div class="col">
-            Big Palmier Cookie $1.50
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            Small Palmier Cookie $0.75
-          </div>
-          <h1> Algerian Sweets</h1>
-       
-        <div class="row">
-          <div class="col">
-            Algerian sweets $4
-          </div>
-          <div class="col">
-            El Mbarja $5
-          </div>
-
-           <h1> Turkish Sweets </h1>
-       
-        <div class="row">
-          <div class="col">
-            Turkish Delight $4
-          </div>
-          <div class="col">
-           Turkish Baklawah $4
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Dulche De Leche Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
           </div>
         </div>
 
-          
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              French Napoleon
+            </div>
+            <div class="menu-item-price flex-child">
+              $5.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Éclair
+            </div>
+            <div class="menu-item-price flex-child">
+              $5.00
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Dome
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Cheesecake
+            </div>
+            <div class="menu-item-price flex-child">
+              $5.00
+            </div>
+          </div>
+        </div>
+
+        <h1>Gluten-Free Cakes</h1>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Chocolate Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.50
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Red Velvet cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.50
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Pyramid Cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.50
+            </div>
+          </div>
+          <!-- <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Red Velvet cake
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.50
+            </div>
+          </div> -->
+        </div>
+
+        <h1>Tarts</h1>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Fruit Tart
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Lemon Meringue Tart
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.50
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Key Lime Tart
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Apricot Tart
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.00
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Pear Tart
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Pecan Tart
+            </div>
+            <div class="menu-item-price flex-child">
+              $7.00
+            </div>
+          </div>
+        </div>
+
+        <h1>Cookies</h1>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Chocolate Caramel Cookie
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.50
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Cinnamon Caramel Cookie
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.50
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Cinnamon Caramel & Coconut Cookie
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.50
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Big Palmier Cookie
+            </div>
+            <div class="menu-item-price flex-child">
+              $1.50
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Small Palmier Cookie
+            </div>
+            <div class="menu-item-price flex-child">
+              $0.75
+            </div>
+          </div>
+        </div>
+
+        <h1>Algerian Sweets</h1>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Algerian Sweets
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              El Mbarja
+            </div>
+            <div class="menu-item-price flex-child">
+              $5.00
+            </div>
+          </div>
+        </div>
+
+        <h1>Turkish Sweets</h1>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Turkish Delights
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Turkish Baklawah
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.00
+            </div>
+          </div>
+        </div>
+
+
 
       </div>
     </div>
   </div>
-        
 
   <div class="collapse" id="coffee">
     <div class="card card-body">
       <div class="container">
 
         <h1>Coffee</h1>
-         <h1>Hot Coffee </h1>
         <div class="row">
-          <div class="col">
-             <p> Americano , $2.75 ,$3.50, $3.95 </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Americano
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.75, $3.50, $3.95
+            </div>
           </div>
-          <div class="col">
-            <p> Cappuccino ,$4.50, $5.50, $ 6.00</p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Cappuccino
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.50, $5.50, $6.00
+            </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-             <p> Espresso ,$2.75,$3.50  </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Espresso
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.75, $3.50, $?.??
+            </div>
           </div>
-          <div class="col">
-           <p> Latte ,$3.95 ,$4.50, $4.75 </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Latte
+            </div>
+            <div class="menu-item-price flex-child">
+              $3.95, $4.50, $4.95
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <p>Chai Latte, $3.50 ,$4.00, $4.50 </p>
-          </div>
-          <div class="col">
-             <p> Mocha ,$4.00 , $4.50, $4.95 </p>
-          </div>
-          <div class="row">
-            <div class="col">
-              <p> Regular Coffee ,$2.50 , $2.75, $3.00</p>
-            </div>
-            <div class="col">
-              <p> Machiatto $0 , $0, $0</p>
-            </div>
 
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Chai Latte
+            </div>
+            <div class="menu-item-price flex-child">
+              $3.50, $4.00, $4.50
+            </div>
           </div>
-      
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Mocha
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.00, $4.50, $4.95
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Regular Coffee
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.50, $2.75, $3.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Machiatto
+            </div>
+            <div class="menu-item-price flex-child">
+              $?, $?, $?
+            </div>
+          </div>
+        </div>
 
         <h1>Iced Coffee</h1>
         <div class="row">
-          <div class="col">
-            <p> Cappuccino  $4.50 ,$5.50, $6.00</p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Cappuccino
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.50, $5.50, $6.00
+            </div>
           </div>
-          <div class="col">
-            <p> Latte $3.95, $4.50, $4.75 </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Latte
+            </div>
+            <div class="menu-item-price flex-child">
+              $3.95, $4.50, $4.75
+            </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col">
-            <p> Macchiato  $0.00, $0.00, $0.00 </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Mocha
+            </div>
+            <div class="menu-item-price flex-child">
+              $4.00, $4.50, $4.95
+            </div>
           </div>
-          <div class="col">
-          <p>Chai Latte  $3.50, $4.00, $4.50 </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p> Mocha   $4.00, $4.50, $4.95 </p>
-          </div>
-          <div class="col">
-            <p> Regular Coffee  $2.50, $2.75, $3.00 </p>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Iced Coffee
+            </div>
+            <div class="menu-item-price flex-child">
+              $2.50, $2.75, $3.00
+            </div>
           </div>
         </div>
 
       </div>
-
     </div>
-
   </div>
 
   <div class="collapse" id="savory">
@@ -475,170 +662,72 @@
       <!-- begin card content-->
       <div class="container">
 
-        <h1> Special Menu </h1>
-         <div class="row">
-          <div class="col">
-             <p> Turkish Savory $6 </p>
-          </div>
-          <div class="col">
-            <p> Moroccan Savory $5</p>
-          </div>
-        </div>
-       <h1> Sandwiches </h1>
-       <h1> Bread: Croissant </h1>
-         <div class="row">
-          <div class="col">
-             <p> Smoked salmon $10.95 </p>
-              <dl>
-  <dt>Smoked Salmon</dt>
-  <dd> Lettuce </dd>
-  <dt>Tomato</dt>
-  <dd>Cheese </dd>
-  <dt> Mayo</dt>
-</dl>
-          </div>
-          <div class="col">
-           <p> Turkey $10 </p>
-            <dl>
-  <dt>Turkey</dt>
-  <dd>Lettuce</dd>
-  <dt>Tomato</dt>
-  <dd>Cheese</dd>
-  <dt>Mayo</dt>
-</dl>
-          </div>
-        </div>
+        <h1> Savory </h1>
         <div class="row">
-          <div class="col">
-            <p> Beef $10 </p>
-             <dl>
-  <dt>Beef</dt>
-  <dd>Lettuce</dd>
-  <dt>Tomato</dt>
-  <dd>Cheese</dd>
-  <dt>Mayo</dt>
-</dl>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Turkish Savory
+            </div>
+            <div class="menu-item-price flex-child">
+              $6.00
+            </div>
           </div>
-          <div class="col">
-             <p> Tuna $10 </p>
-              <dl>
-  <dt>Tuna</dt>
-  <dd>Lettuce</dd>
-  <dt>Tomato</dt>
-  <dd>Cheese</dd>
-  <dt>Mayo</dt>
-</dl>
-S  </div>
-          <div class="row">
-            <div class="col">
-              <p> Veggies $10</p>
-               <dl>
-               <dt>Eggs</dt>
-               <dd>Lettuce</dd>
-                <dt>Tomato</dt>
-               <dd>Cheese</dd>
-             <dt>Mayo</dt>
-            </dl>
-           </div>
-         </div> <!-- end container-->
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Moroccan Savory
+            </div>
+            <div class="menu-item-price flex-child">
+              $5.00
+            </div>
+          </div>
+        </div>
+
+        <h1>Sandwiches</h1>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Smoked Salmon Crossaint
+            </div>
+            <div class="menu-item-price flex-child">
+              $10.95
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Turkey Croissant
+            </div>
+            <div class="menu-item-price flex-child">
+              $10.00
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Tuna Crossaint
+            </div>
+            <div class="menu-item-price flex-child">
+              $10.00
+            </div>
+          </div>
+          <div class="col-lg-6 flex-container">
+            <div class="menu-item-name flex-child">
+              Veggie Croissant
+            </div>
+            <div class="menu-item-price flex-child">
+              $10.00
+            </div>
+          </div>
+        </div>
+
+
+      </div> <!-- end container-->
     </div> <!-- end card content-->
   </div>
-
-  <!-- <div class="collapse" id="pastries">
-    <div class="card card-body">
-      
-
-      <div class="container">
-        <h1> Croissant </h1>
-       
-        <div class="row">
-          <div class="col">
-            <p> Plain Croissant $3.50 </p>
-          </div>
-          <div class="col">
-            <p> Chocolate Croissant $4.00</p>
-          </div> 
-        </div>
-        <div class="row">
-          <div class="col">
-            <p> Almond Croissant $4.50 </p>
-          </div>
-          <div class="col">
-            <p> Apple and Cineman custard $5.00</p>
-          </div> 
-          <div class="row">
-            <div class="col">
-              <p> Raisin Roll $4.00</p>
-            </div>
-        </div> 
-
-
-      </div> 
-    </div> 
-  </div>  -->
-
   
   </section> <!-- end of the section-->
-
-    <!-- Rania's Section: "Specials", 
-      describes the Algerian dishes 
-    
-      The Specials:
-
-      - Dziriat, Algerian Almond Tart
-      - Ka3b Ghazal, "Gazelle Horns"
-      - Makroud El-Louz, Algerian Almond Tea Cake
-      - Kalbelouz, Semolina Cake stuffed with Almond & buttermilk
-      - Mille Feuille, "thousand sheets"
-    -->
-    <section id="specials">
-      <div class="row">
-          <h1>Specials</h1>
-          <p> Try out our Algerian desserts </p>
-      </div>
-      <div class="row">
-        <div class="col">
-          <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/placeholder" class="d-block w-100" alt="Picture1">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/placeholder" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/placeholder" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Zaynab's Section -->
     <section id="chefs" style="background-color:#d9e7c1" >
@@ -680,10 +769,21 @@ S  </div>
 
 
     <!-- Zarif's Section -->
+    <!-- Zarif's Section -->
     <section id="gallery">
       <div class="row" id="#gallery">
-        <div class="col">
-          <p>Zarif's Section</p>
+
+        <div class="col-lg-3">
+          <img src="images/img9-min.jpg" alt="exterior of Cafe" style="width: 220px; height: 200px; position: relative; top: 20px;">
+        </div>
+        <div class="col-lg-3">
+          <img src="images/img28-min.jpg" alt="exterior of Cafe" style="width: 220px; height: 200px; position: relative; top: 20px;">
+        </div>
+        <div class="col-lg-3">
+          <img src="images/img30-min.jpg" alt="exterior of Cafe" style="width: 220px; height: 200px; position: relative; top: 20px;">
+        </div>
+        <div class="col-lg-3">
+          <img src="images/img32-min.jpg" alt="exterior of Cafe" style="width: 220px; height: 200px; position: relative; top: 20px;">
         </div>
       </div>
     </section>
