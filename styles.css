@@ -9,6 +9,12 @@ stone #c1cdc1
 dark nude #cc9966
 light nude #fdd1a5 */
 
+.navbar-custom {
+    background-color: antiquewhite;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
 main {
     font-family: 'Fjalla One', sans-serif;
 }
@@ -36,9 +42,7 @@ section {
 /* MENU STYLING */
 
 #menu {
-    background-color: antiquewhite;
-    
-    
+    background-color: antiquewhite;   
 }
 
 #menu h1 {
