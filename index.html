@@ -18,7 +18,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-</head>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
 
 <!-- all of our actual website is gonna go here (in the body) -->
 <body>
@@ -37,7 +40,6 @@
           <div class="navbar-nav">
             <a class="nav-link scrollto me-auto" href="#about">Gallery</a>
             <a class="nav-link scrollto" href="#menu">Menu</a>
-            <a class="nav-link scrollto" href="#specials">About Us</a>
             <a class="nav-link scrollto" href="#chefs">Meet the Chef</a>
             <a class="nav-link scrollto" href="#contact">Contact Us</a>
           </div>
@@ -67,23 +69,23 @@
               <div class="carousel-item active">
                 <img src="images/RoyalSpread.jpg" class="d-block w-100" alt="Picture1">
                 <div class="carousel-caption" style="color: black">
-                  <h1>Belmo Cafe</h1>
+                  <h1>Belmo Café</h1>
                   <p>Algerian & French Bakery</p>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="images/RoyalSpread4.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
                   <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                </div> -->
               </div>
               <div class="carousel-item">
                 <img src="images/RedGlitter.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <!-- <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
-                </div>
+                </div> -->
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -99,15 +101,6 @@
       </div>
     </section>
     
-    <!-- Habiba's Section -->
-    <section id="specials">
-      <div class="row">
-        <div class="col">
-          <p>About Us</p>
-        </div>
-      </div>
-    </section>
-
 
    <!-- Rahma's Section: "Menu",
     lays out the menu  -->
@@ -115,10 +108,8 @@
     <section id="menu"> <!-- begin menu section-->
     <div class="container menu-container"> <!-- begin container-->
       <div class="row">
-        <h1>Menu</h1>
+        <h1>Check out our Menu!</h1>
       </div>
-
-      
 
   <h1>
     <button class="btn btn-lg btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#coffee" aria-expanded="false" aria-controls="coffee">
@@ -789,22 +780,24 @@
 
     
     <!-- Zaynab's Section -->
-    <!-- <section id="chefs">
+    <section id="chefs">
       <div class="row">
       <h1>
         Meet the Chef!
       </h1>
       </div> 
       <div class="row">
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="images/chefNadir.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Chef Nadir</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        </div> -->
+        <div class="col-lg-8">
+          <img src="images/chefNadir.png" alt="" style="max-width: 100%; height: auto;">
+        </div>
+        <div class="col-lg-4" style="margin: auto;">
+          <p>
+            Chef Nadir Salhi started working in Parisian bakery
+            at just 13 years old. He has since amassed over 25 years of experience
+            in bakeries across Paris, London and Berkeley. Chef Nadir specializes in
+            mediterranean pastries, notably from Algeria, Turkey & France.  
+          </p>
+        </div>
 
 
       </div>
@@ -812,6 +805,9 @@
 
     <!-- Yahya's Section -->
     <section id="contact">
+      <h1>
+        Contact Us!
+      </h1>
       <div class="row">
         <div class="col">
           <div class="map">
@@ -820,8 +816,7 @@
         </div>
       </div>
     </section>
-
-
+    
   </main>
 </div>
 
@@ -829,5 +824,34 @@
 <!-- stuff for bootsrap to work properly, we dont need to wrry about this -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
+
+
+<footer class="bg-* text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      
+      <a class="btn text-white btn-lg btn-floating" style="background-color: #3b5998; border-radius: 50%;" href="https://www.facebook.com/people/Belmo-Cafe/100070824790616/" role="button">
+        <i class="bi bi-facebook"></i>
+      </a>
+
+      <a class="btn text-white btn-lg btn-floating" style="background-color: #dd4b39; border-radius: 50%;" href="https://www.yelp.com/biz/belmo-cafe-berkeley-5" role="button">
+        <i class="bi bi-yelp"></i>
+      </a>
+
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #cc9966">
+    <!-- <p>© 2023 Belmo Cafe</p>
+    <p>(510)901-9152</p>
+    <p>1160 University Ave, Berkeley, CA 94702</p> -->
+  </div>
+  <!-- Copyright -->
+</footer>
 
 </html>
