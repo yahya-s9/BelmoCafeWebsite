@@ -36,7 +36,7 @@ light nude #fdd1a5 */
 
 }
 
-main {
+main, p {
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -98,35 +98,28 @@ section {
     margin-right: 20px;
 } 
 
-/* SPECIALS STYLING */
-
-#specials {
-    
-    
-    
-}
-
-/* CHEFS STYLING */
-
-/* targetting the chefs ID using hashtag in front */
-#chefs {
-    
-
-}
-
-/* targetted the card class using the full stop in front */
-.card {
-    
-}
-
 .logoPic {
     border: 1px solid black;
     border-radius: 50%;
 }
 
+#contact {
+    background-color: antiquewhite;
+    padding: 1%;
+}
+
+#contact h1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #cc9966 !important;
     border: 1px solid black !important;
+}
+
+.socials {
+    padding: 1%;
 }
 
 footer {
