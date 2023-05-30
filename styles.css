@@ -66,6 +66,10 @@ section {
 
 /* MENU STYLING */
 
+#menu p {
+    font-size: 1.5rem;
+}
+
 #menu {
     background-color: antiquewhite;   
 }
