@@ -4,7 +4,7 @@ MSA Tech's Inaugural Client Project. Designed specifically for newer programmers
 # Developers:
 
 - Rania Bouiri
-- Rahma Rouabha
+- Rahma Rouabah
 - Zaynab Jawaid
 - Habiba Naqvi
 - Zarif Nomanee
