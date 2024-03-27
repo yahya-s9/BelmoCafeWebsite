@@ -1,5 +1,5 @@
 # BelmoCafeWebsite
-MSA Tech's Inaugural Client Project. Designed specifically for newer programmers to learn web development, and to support small businesses in our community by developing free professional websites for them!
+MTC Berkeley's Inaugural Client Project (Spring 2023). Designed specifically for newer programmers to learn web development, and to support small businesses in our community by developing free professional websites for them!
 
 # Developers:
 
