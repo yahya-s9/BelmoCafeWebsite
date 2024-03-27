@@ -1,6 +1,9 @@
 # BelmoCafeWebsite
 MTC Berkeley's Inaugural Client Project (Spring 2023). Designed specifically for newer programmers to learn web development in 4 weeks, and to support small businesses in our community by developing free professional websites for them!
 
+Belmo Cafe is an Algerian / French bakery in Berkeley, CA. We saw their website, and offered them to build them a new one for free! 
+This is the beginging of MTC Berkeley's initiatives to leverage our skills and serve our community in any way we can :)
+
 # Developers:
 
 - Rania Bouiri
